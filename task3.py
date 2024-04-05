@@ -12,3 +12,21 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+print("    The formula   'ax + b = c'")
+print("a:")
+a = input()
+print("b:")
+b = input()
+print("c:")
+c = input()
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+## ax + b = c
+x = (c - b) / a 
+x = float(x)
+
+print(f"your answer is: {x}")
+
