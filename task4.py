@@ -16,15 +16,19 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
-
+import math
+import os
 print("Surface area of a cone: \n")
 
-##A=πr(r+ h2+r2**(1/2) )
+##A=πr(r+h2+r2**(1/2) )
 print("radius:")
 r = input()
+r = float(r)
 print("height:")
 h = input()
-
-a = 3.14 * r * ((r + h**2 + r**2)**(1/2) )
+h = float(h)
+os.system('cls')
+a = 3.1415 * r * (r + ( h**2 + r**2)**(1/2) )
 a = float(a)
-print(f"surface area = {a}")
+
+print(f"\n\n     surface area = {a}")

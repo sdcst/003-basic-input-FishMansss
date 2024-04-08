@@ -37,4 +37,6 @@ print(f"\nWhat is your email?")
 
 y = input()
 
-print("\n you\'r email is:")
+print(f"\n you\'r email is: {y}")
+
+input()
